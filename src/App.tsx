@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Cog as Cow, Milk } from 'lucide-react';
-import { fetchBatchData, getAllBatches } from './lib/supabase';
+import { fetchBatchData, getAllBatches } from './lib/dataService';
 import BatchSearch from './components/BatchSearch';
 import BatchDetails from './components/BatchDetails';
 import EmptyState from './components/EmptyState';
